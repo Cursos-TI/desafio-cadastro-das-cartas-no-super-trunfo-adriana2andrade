@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-
 
 int main() {
     // Variáveis para armazenar as informações
@@ -21,8 +16,8 @@ int main() {
 
     // Cadastro para o Estado 1 
     printf("Cadastro do Estado 1\n");
-    printf("Digite a letra que representa o estado (A-H): \n");
-    scanf("%s", &estado);
+    printf("Digite a letra que representa o estado (A-H):\n");
+    scanf("%s" , &estado);
     printf("Digite o código do estado (1-4):\n");
     scanf("%d", &codigo);
     printf("Digite o nome do Estado:\n");
